@@ -1,0 +1,12 @@
+
+RewriteEngine On
+
+RewriteBase /php_login_test/
+
+ErrorDocument 404 /php_login_test/index.php?controller=index&operation=error
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.+)$ index.php?uri=$1 [QSA,L] 

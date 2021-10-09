@@ -1,0 +1,290 @@
+body {
+    background: #fff;
+}
+
+.top-container {
+    background: whitesmoke;
+    width: 1280px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.top_container_content {
+    width: auto;
+    float: left;
+}
+
+.top_container_content a:hover {
+    background: darkgray;
+}
+
+.top-container .top-container-registracija {
+    background: #444;
+}
+
+.top-container .top-container-login {
+    background: #444;
+    float: left;
+}
+
+.top-container a {
+    margin: 0 auto;
+    width: 200px;
+    float: left;
+    height: 40px;
+    background: gray;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+}
+
+/*WRAPPER*/
+.wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 40px;
+    background: lightgray;
+    width: 1280px;
+    height: auto;
+    float: left;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+/*BLOG SEARCH*/
+
+.wrapper .blog-search {
+    margin: 0 auto;
+    padding-top: 20px;
+    background: lightgray;
+    height: 70px;
+    float: center;
+    width: auto;
+}
+
+.blog-wrapper .blog-search form.pretraga {
+    margin: 0 auto;
+    width: 58%;
+    height: 42px;
+    float: center;
+}
+
+form.pretraga input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 130px;
+  background: #f1f1f1;
+}
+
+form.pretraga button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.pretraga button:hover {
+  background: #0b7dda;
+}
+
+form.pretraga::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.blog-container {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 307px;
+    height: 490px;
+    float: left;
+    background: #f2f2f2;   
+}
+
+.blog-image {
+    border:1px solid gray;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    width: 293px;
+    max-width:100%;
+    max-height:100%;
+    height: auto;
+}
+
+img {
+    width:inherit;
+}
+
+.blog-container .blog-title h4 {
+    margin: 0 auto;
+    color: #333;
+    margin-left: 5px;
+}
+
+.blog-container .blog-text h4 {
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #555;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.blog-container .blog-autor h5 {
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #555;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+
+/*LOGIN*/
+
+form.prijava-korisnika {
+    width: 30%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    background: lightgray;
+}
+
+form.prijava-korisnika hr {
+    color: #fff;
+}
+
+form.prijava-korisnika input {
+    width: 79%;
+    margin-left: 10%;
+    border: none;
+    height: 25px;
+    text-align: center;
+}
+
+form.prijava-korisnika label {
+    float: left;
+    margin-left: 39px;
+}
+
+form.prijava-korisnika .prijava-btn {
+    margin: 30px auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #222;
+    width: 80%;
+    height: 45px;
+    color: #fff;
+    border: none;
+}
+
+/*REGISTRACIJA*/
+
+form.registracija-korisnika {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    background: lightgray;
+}
+
+form.registracija-korisnika .registracija-container-1 {
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+}
+
+form.registracija-korisnika .registracija-container-1 label{
+    margin: 0 auto;
+    margin-left: 93px;
+    float: left;
+}
+
+form.registracija-korisnika .registracija-container-1 input[type='text']{
+    margin: 0 auto;
+    margin-left: 93px;
+}
+
+form.registracija-korisnika .registracija-container-2 {
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+}
+
+form.registracija-korisnika .registracija-container-2 label{
+    margin: 0 auto;
+    margin-left: 93px;
+    float: left;
+}
+
+form.registracija-korisnika .registracija-container-2 input[type='text'], .registracija-container-2 input[type='password']{
+    margin: 0 auto;
+    margin-left: 93px;
+}
+
+form.registracija-korisnika hr {
+    color: #fff;
+}
+
+form.registracija-korisnika input {
+    width: 59%;
+    margin-left: 10%;
+    border: none;
+    height: 25px;
+    text-align: center;
+}
+
+form.registracija-korisnika .registracija-btn {
+    margin: 30px auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #222;
+    width: 80%;
+    height: 45px;
+    color: #fff;
+    border: none;
+}
+
+
+/*Promijeni password button */
+.promijeni_password {
+    background-color: lightgray;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 45px;
+    color: #000;
+    font-family: Arial;
+    text-decoration: none;  
+    display: block;
+    line-height: 42px;
+    text-align: center;
+}
+
+.promijeni_password_hr {
+    margin-top: 40px;
+}
+
+.prvi_omotac {
+    margin: 20px auto;
+    margin-left: 10px;
+    width: 1280px;
+    background: #f1f1f1;
+}
